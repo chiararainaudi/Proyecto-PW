@@ -1,4 +1,5 @@
 
+body{background-color:lavender;}
 
 .titulo{
     position: relative;
@@ -7,4 +8,9 @@
     text-align: center;
     color: rebeccapurple;
     border: 4px solid rebeccapurple;
+}
+
+.boton-compra{
+    color: rebeccapurple;
+    border: 2px solid rebeccapurple
 }
