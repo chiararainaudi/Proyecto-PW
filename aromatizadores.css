@@ -21,6 +21,9 @@ body{background-color:lavender;}
     align-items: center;
 }
 
+.letra{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
