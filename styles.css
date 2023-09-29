@@ -27,6 +27,7 @@ body{background-color:lavender;}
 }
 
 
+
 .nuestra-empresa{
     display: grid; 
     grid-template-columns: auto 1fr; 
