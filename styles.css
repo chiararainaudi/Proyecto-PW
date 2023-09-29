@@ -5,8 +5,7 @@ body{background-color:lavender;}
     color: rebeccapurple;
 }
 
-#titulo{
-    position: relative;
+.titulo{
     top: 50%;
     width: 100%;
     text-align: center;
@@ -20,7 +19,7 @@ body{background-color:lavender;}
 }
 
 .letra{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .position-menu{
@@ -35,6 +34,7 @@ body{background-color:lavender;}
     gap: 0px 20px; 
     grid-template-areas: 
     ". ."; 
+    text-align: justify; 
 
 
 }
@@ -50,14 +50,42 @@ body{background-color:lavender;}
     align-items: center;
 }
 
+.menu{
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-item{
+    margin-right: 5%;
+    text-decoration: none;
+
+
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .catalogo{
         display:block;
     }
+    .nuestra-empresa{
+        display: block;
+        width:90%;
+        text-align: justify; 
+        margin:auto;
+
+    
+    
+    }
+    #titulo{
+        width: 95%; 
+    }
 
 }
 
 
 
+.d-block{
+    max-height: 700px;
+}

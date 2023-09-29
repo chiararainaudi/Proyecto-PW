@@ -24,6 +24,7 @@ body{background-color:lavender;}
 
 .letra{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 /* Extra small devices (phones, 600px and down) */
