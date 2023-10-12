@@ -24,6 +24,7 @@ body{background-color:lavender;}
 
 .position-menu{
     justify-content: center;
+    position: sticky;
 }
 
 
