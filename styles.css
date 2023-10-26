@@ -23,10 +23,8 @@ body{background-color:lavender;}
 }
 
 .oferta{
-   color:red
+    color:red
 }
-
-
 
 .position-menu{
     justify-content: center;
@@ -49,7 +47,6 @@ body{background-color:lavender;}
     grid-template-areas: 
     ". ."; 
     text-align: justify; 
-
 
 }
 
