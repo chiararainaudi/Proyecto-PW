@@ -1,25 +1,25 @@
-// Set the date we're counting down to
+// Set dia 
     let countDownDate = new Date("Nov 15, 2023 15:37:25").getTime();
     console.log(countDownDate)
-    // Update the count down every 1 second
+    // Update contador
     let x = setInterval(function() {
     
-      // Get today's date and time
+      // dia de hoy
     let now = new Date().getTime();
     
-      // Find the distance between now and the count down date
+      // dias que faltan 
     let distance = countDownDate - now;
     
-      // Time calculations for days, hours, minutes and seconds
+      // calculos
       let days = Math.floor(distance / (1000 * 60 * 60 * 24));
       let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       let seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-      // Display the result in the element with id="demo"
+      // muestra los elementos with id="demo"
     document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
     
-      // If the count down is finished, write some text
+      // cuando el contador termine
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("demo").innerHTML = "EXPIRED";
