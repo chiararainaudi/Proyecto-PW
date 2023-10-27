@@ -26,9 +26,41 @@ body{background-color:lavender;}
     align-items: center;
 }
 
-.center{
+.menu{
+    display:flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif 10vw;
 }
+
+.menu-item{
+    margin-right: 5%;
+    text-decoration: none;
+
+
+}
+
+.position-menu{
+    justify-content: center;
+    position: sticky;
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif 10vw;
+    top:0;
+    z-index:1;
+    background-color: white;
+}
+
+
+
+.carrito {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    font-size: 180%
+}
+
 
 
 

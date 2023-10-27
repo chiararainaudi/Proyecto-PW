@@ -31,7 +31,7 @@ body{background-color:lavender;}
     position: sticky;
     display:flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif 10vw;
     top:0;
     z-index:1;
     background-color: white;
@@ -64,7 +64,7 @@ body{background-color:lavender;}
 .menu{
     display:flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif 10vw;
 }
 
 .menu-item{
@@ -73,6 +73,16 @@ body{background-color:lavender;}
 
 
 }
+
+.carrito {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    font-size: 180%
+}
+
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -91,6 +101,9 @@ body{background-color:lavender;}
     }
     #titulo{
         width: 95%; 
+        font-family: Arial, Helvetica, sans-serif 10vw;
+
+
     }
 
 }
