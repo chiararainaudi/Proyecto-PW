@@ -26,20 +26,4 @@
     }
     }, 1000);
 
- // carrito 
 
-// alerta 
-function myFunction() {
-  alert("Se ha añadido al carrito");
-}
-
-const CARRITO=[]
-
-function agregar_producto(producto){
-  CARRITO.push(producto);
-
-
-}
-button.AÑADIRALCARRITOaddEventListener("click",agregarproducto)
-
-erase.AddEventListener("click", CARRITO=[])
