@@ -1,5 +1,5 @@
 // Set dia 
-    let countDownDate = new Date("Nov 15, 2023 15:37:25").getTime();
+    let countDownDate = new Date("Dec 25, 2023 15:37:25").getTime();
     console.log(countDownDate)
     // Update contador
     let x = setInterval(function() {
