@@ -1,0 +1,130 @@
+
+body{background-color:lavender;}
+
+.cuadro{
+    color: rebeccapurple;
+}
+
+.titulo{
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rebeccapurple;
+    border: 4px solid rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuadro{
+    border: 4px solid rebeccapurple;
+}
+
+.letra{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.oferta{
+    color:red
+}
+
+.position-menu{
+    justify-content: center;
+    position: sticky;
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif 10vw;
+    top:0;
+    z-index:1;
+    background-color: white;
+}
+
+.button {
+    background-color: rebeccapurple; /*  */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+
+.nuestra-empresa{
+    display: grid; 
+    grid-template-columns: auto 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 20px; 
+    grid-template-areas: 
+    ". ."; 
+    text-align: justify; 
+
+}
+
+.catalogo{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.item-catalogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif 10vw;
+}
+
+.menu-item{
+    margin-right: 5%;
+    text-decoration: none;
+
+
+}
+
+.carrito {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    font-size: 180%
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .catalogo{
+        display:block;
+    }
+    .nuestra-empresa{
+        display: block;
+        width:90%;
+        text-align: justify; 
+        margin:auto;
+
+    
+    
+    }
+    #titulo{
+        width: 95%; 
+        font-family: Arial, Helvetica, sans-serif 10vw;
+
+
+    }
+
+}
+
+
+
+.d-block{
+    max-height: 700px;
+}
