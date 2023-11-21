@@ -15,6 +15,7 @@
 </head>
 
 <body>
+   
 
         <nav class="position-menu" class="navbar navbar-expand-sm bg-light">
                 <a class="menu-item" href="#inicio">INICIO</a>
@@ -132,10 +133,36 @@
 
         </div>
 
+        <div>
+            <h2 class="formulario">Contacta con nosotros</h2>
+                <form id="formularioContacto" class="formulario">
+                    <label for="nombre">Nombre:</label>
+                    <br>
+                    <input type="text" id="nombre" name="nombre">
+                    <span id="errorNombre" class="error"></span>
+                    <br>
+
+                    <label for="email">Correo electrónico:</label>
+                    <br>
+                    <input type="email" id="email" name="email">
+                    <span id="errorEmail" class="error"></span>
+                    <br>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <br>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    <span id="errorMensaje" class="error"></span>
+                    <br>
+
+                    <button class="button" type="button" onclick="enviarFormulario()">Enviar</button>
+                </form>
+
+        </div>
+
+
     </div>
 
 
-  
 
 
 

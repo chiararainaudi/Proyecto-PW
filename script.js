@@ -26,4 +26,48 @@
     }
     }, 1000);
 
+  function mostrarBienvenida() {
+      alert('¡Bienvenido a Con Luz Propia!');
+  }
+  window.onload = mostrarBienvenida;
+
+
+  function enviarFormulario() {
+    // Obtener los valores de los campos
+    var nombre = document.getElementById("nombre").value;
+    var email = document.getElementById("email").value;
+    var mensaje = document.getElementById("mensaje").value;
+
+    // Limpiar mensajes de error previos
+    document.getElementById("errorNombre").innerText = "";
+    document.getElementById("errorEmail").innerText = "";
+    document.getElementById("errorMensaje").innerText = "";
+
+  
+      // Validar campos (puedes agregar más validaciones según tus necesidades)
+      var valido = true;
+  
+      if (nombre === "") {
+          document.getElementById("errorNombre").innerText = "Por favor, ingresa tu nombre.";
+          valido = false;
+      }
+  
+      if (email === "") {
+          document.getElementById("errorEmail").innerText = "Por favor, ingresa tu correo electrónico.";
+          valido = false;
+      }
+  
+      if (mensaje === "") {
+          document.getElementById("errorMensaje").innerText = "Por favor, ingresa tu mensaje.";
+          valido = false;
+      }
+  
+      if (valido) {
+          // Aquí podrías realizar la lógica para enviar el formulario
+          alert("Formulario enviado correctamente.");
+      }
+  }
+  
+
+  
 
